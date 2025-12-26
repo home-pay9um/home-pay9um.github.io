@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The bse URL of youar site
-baseurl: "/"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
