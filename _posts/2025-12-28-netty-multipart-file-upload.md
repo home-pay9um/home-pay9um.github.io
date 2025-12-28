@@ -4,11 +4,11 @@ description: Netty HttpServer 환경에서 multipart/form-data 파일 업로드�
 date: 2025-12-28 18:00:00 +09:00
 categories: [ SWH, Netty ]
 tags: [
-    Java,
-    Java17,
-    Netty,
-    Multipart,
-    FileUpload,
+    java,
+    java17,
+    netty,
+    multipart,
+    file upload,
 ]
 ---
 
