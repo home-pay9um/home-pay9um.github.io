@@ -13,7 +13,7 @@ order: 4
 여러 언어와 기술을 직접 사용해보며  
 **제가 좋아하고 오래 즐길 수 있는 방향을 찾고 있는 중**입니다.
 
-> 🔗 GitHub: https://github.com/home-pay9um  
+> 🔗 GitHub: [https://github.com/home-pay9um]  
 > 개인 학습 및 프로젝트 코드를 기록하고 있습니다.
 {: .prompt-info }
 
