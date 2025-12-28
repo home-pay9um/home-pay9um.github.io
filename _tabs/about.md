@@ -13,7 +13,7 @@ order: 4
 여러 언어와 기술을 직접 사용해보며  
 **제가 좋아하고 오래 즐길 수 있는 방향을 찾고 있는 중**입니다.
 
-> 🔗 GitHub: [https://github.com/home-pay9um]  
+> 🔗 GitHub: <https://github.com/home-pay9um>  
 > 개인 학습 및 프로젝트 코드를 기록하고 있습니다.
 {: .prompt-info }
 
@@ -70,7 +70,6 @@ order: 4
 - 프로그래밍 및 개발 전반에 관심
 - Java, Python, C, HTML 등 다양한 언어 경험
 - **현재는 Java를 가장 많이 사용**
-- SWH 코딩 학원에서 프로젝트 및 실습 위주 학습
 - 인공지능(AI) 분야에도 관심을 가지고 개념 학습 중
 - 아직 진로를 단정짓기보다는 경험을 통해 방향을 탐색 중
 
