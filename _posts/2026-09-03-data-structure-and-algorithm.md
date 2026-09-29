@@ -6,6 +6,7 @@ tags: [
   data structure,
   algorithm,
 ]
+media_subpath: '/posts/20260903'
 ---
 
 > **프로그램 = 자료구조 + 알고리즘**
@@ -74,8 +75,8 @@ tags: [
 >
 > 알고리즘 = 저장된 데이터를 어떻게 처리하여 문제를 해결할 것인가?
 
-![라이트 모드 전용](/posts/20260903/structure-light.png){: .light }
-![다크 모드 전용](/posts/20260903/structure-dark.png){: .dark }
+![라이트 모드 전용](structure-light.png){: .light }
+![다크 모드 전용](structure-dark.png){: .dark }
 
 요리에 비유하면 이해하기 쉽다.
 
@@ -120,4 +121,4 @@ tags: [
 
 ---
 
-_`Last updated: 2026-09-28`_{: .right}
+_`Last updated: 2026-09-29`_{: .right}
