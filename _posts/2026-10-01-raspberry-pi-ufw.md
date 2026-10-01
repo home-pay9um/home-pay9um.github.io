@@ -1,0 +1,105 @@
+---
+title: Linux 방화벽(ufw) 설정 및 명령어
+description: >-
+  라즈베리 파이 환경에서 시스템 보안 강화를 위해 간단한 패키지 관리 명령어로 UFW 방화벽을 설치하는 기초 설정 방법 안내입니다.
+date: 2026-10-01 16:00:00 +0900
+categories: [Linux, ufw]
+tags: [
+  raspberry pi,
+  linux,
+  debian,
+  ufw,
+]
+---
+
+## 1. ufw 설치
+
+```bash
+sudo apt install ufw -y
+```
+
+---
+
+## 2. 기본 정책 설정 (중요)
+
+> 방화벽을 켜기 전에 본인이 사용하는 원격 접속용 **SSH(22)**나 **VNC(5900)**를 허용하지 않으면 연결이 끊길 수 있으니 주의.
+{: .prompt-danger }
+
+```bash
+sudo ufw default deny incoming  # 외부에서 들어오는 트래픽 기본 차단
+sudo ufw default allow outgoing # 내부에서 나가는 트래픽 기본 허용
+
+sudo ufw allow 22/tcp           # SSH(22번) 접속 허용 (권장)
+sudo ufw allow 5900/tcp         # VNC(5900번) 접속 허용 (선택)
+```
+
+```bash
+# 특정 관리 IP만 허용을 할 경우
+sudo ufw allow from 192.168.x.x to any port 22 proto tcp
+```
+
+```bash
+# 방화벽 활성화
+sudo ufw enable
+```
+
+---
+
+## 3. ufw 명령어
+
+### 기본 설정
+
+```bash
+# 활성화
+sudo ufw enable
+
+# 비활성화
+sudo ufw disable
+
+# 기본 정책 설정
+sudo ufw default deny incoming    # 수신 (기본 차단)
+sudo ufw default allow outgoing   # 발신 (기본 허용)
+```
+
+### 규칙 추가
+
+```bash
+# 추가
+sudo ufw allow <port>                           # 기본
+sudo ufw allow <port>/<tcp/udp>                 # 보통 tcp를 많이 사용함
+sudo ufw allow <port>/tcp comment "<content>"   # 규칙 내용 명시
+
+# ex)
+sudo ufw allow 80
+sudo ufw allow 443/tcp
+sudo ufw allow 3306/tcp comment "DB"
+```
+
+### 규칙 확인
+
+```bash
+sudo ufw status             # 기본
+sudo ufw status verbose     # 상세
+sudo ufw status numbered    # 번호
+```
+
+### 규칙 삭제
+
+```bash
+# 삭제
+sudo ufw delete allow <port>
+sudo ufw delete <number>
+
+# ex1)
+sudo ufw delete allow 80
+sudo ufw delete allow 443/tcp
+sudo ufw delete allow 3306/tcp
+
+# ex2)
+sudo ufw status numbered    # 규칙 번호 확인
+sudo ufw delete 1           # 삭제할 규칙 번호 입력
+```
+
+---
+
+_`Last updated: 2026-10-01`_{: .right}

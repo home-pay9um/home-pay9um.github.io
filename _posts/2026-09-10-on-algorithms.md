@@ -1,6 +1,8 @@
 ---
 title: 알고리즘이란
 date: 2026-09-10 18:00:00 +0900
+description: >-
+  알고리즘의 정의와 성립을 위한 5가지 기본 조건(입력·출력·명확성·유한성·효과성), 그리고 우수한 알고리즘의 판단 기준을 다룹니다.
 categories: [동원대학교, 자료구조와 알고리즘]
 tags: [
   algorithm,
@@ -243,4 +245,4 @@ def find_max(data: list[int]) -> int:
 
 ---
 
-_`Last updated: 2026-09-29`_{: .right}
+_`Last updated: 2026-10-01`_{: .right}
