@@ -1,7 +1,7 @@
 ---
 title: Linux 도커(Docker) 설치
 description: >-
-  Linux 시스템의 UFW 방화벽 설치 방법과 함께 SSH/VNC 원격 접속 차단 방지를 위한 필수 포트 허용 및 규칙 관리 주요 명령어 모음입니다.
+  Linux(Debian) 환경에서 Docker 공식 저장소 등록 및 엔진 설치 방법과 함께, sudo 없이 실행 설정, 부팅 시 자동 시작 및 패키지 제거 방법을 안내합니다.
 date: 2026-10-01 20:00:00 +0900
 categories: [Linux, Docker]
 tags: [
