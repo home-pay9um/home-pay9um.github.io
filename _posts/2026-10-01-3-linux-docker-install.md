@@ -2,7 +2,7 @@
 title: Linux 도커(Docker) 설치
 description: >-
   Linux(Debian) 환경에서 Docker 공식 저장소 등록 및 엔진 설치 방법과 함께, sudo 없이 실행 설정, 부팅 시 자동 시작 및 패키지 제거 방법을 안내합니다.
-date: 2026-10-03 20:00:00 +0900
+date: 2026-10-01 20:00:00 +0900
 categories: [Linux, Docker]
 tags: [
   raspberry pi,
@@ -124,7 +124,7 @@ sudo usermod -aG docker $USER
 
 ### 3. 로그아웃 후 로그인
 
-> 가상 머신에서 Linux를 실행하는 경우는 변경 사항을 적용하려면 가상 머신을 다시 시작해야 할 수 있다.
+> 가상 머신에서 Linux를 실행하는 경우, 변경 사항을 적용하기 위해 가상 머신을 다시 시작해야 할 수 있다.
 
 아래 명령어를 실행하여 그룹 변경 사항을 적용할 수도 있다.
 
@@ -172,14 +172,14 @@ sudo apt purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker
 
 `images`, `containers`, `volumes` 또는 사용자 지정 구성 파일은 자동으로 삭제되지 않는다.
 
-모든 정보를 삭제하려면 아래 명령어를 실행.
+모든 정보를 삭제하려면 아래 명령어를 실행한다.
 
 ```bash
 sudo rm -rf /var/lib/docker
 sudo rm -rf /var/lib/containerd
 ```
 
-### 3. source list, keyrings 제거
+### 3. 소스 리스트 및 키링(keyrings) 제거
 
 ```bash
 sudo rm /etc/apt/sources.list.d/docker.sources
@@ -195,7 +195,7 @@ sudo rm /etc/apt/keyrings/docker.asc
 
 ---
 
-_`Last updated: 2026-10-03`_{: .right}
+_`Last updated: 2026-10-02`_{: .right}
 
 [install-debian]: https://docs.docker.com/engine/install/debian
 [post-installation-steps]: https://docs.docker.com/engine/install/linux-postinstall/
