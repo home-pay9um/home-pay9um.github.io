@@ -62,8 +62,8 @@ sudo apt install fonts-unfonts-core
 
 ![L3-Keyboard](L3-Keyboard.png)
 
-`Keyboard` 선택하면 설정창이 잠시 닫히면서 자동으로 키보드 설정.
-: 만약 제대로 키도브가 잡히지 않을 경우 [직접 설정](#keyboard).
+`Keyboard`를 선택하면 설정창이 잠시 닫히면서 자동으로 키보드가 설정된다.
+: 만약 제대로 키보드가 잡히지 않을 경우 [직접 설정](#keyboard).
 
 ### L4. WLAN Country
 
@@ -113,4 +113,4 @@ sudo apt install fonts-unfonts-core
 
 ---
 
-_`Last updated: 2026-10-01`_{: .right}
+_`Last updated: 2026-10-02`_{: .right}

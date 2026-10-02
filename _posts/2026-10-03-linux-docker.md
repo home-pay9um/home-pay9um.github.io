@@ -2,7 +2,7 @@
 title: Linux 도커(Docker) 설치
 description: >-
   Linux(Debian) 환경에서 Docker 공식 저장소 등록 및 엔진 설치 방법과 함께, sudo 없이 실행 설정, 부팅 시 자동 시작 및 패키지 제거 방법을 안내합니다.
-date: 2026-10-01 20:00:00 +0900
+date: 2026-10-03 20:00:00 +0900
 categories: [Linux, Docker]
 tags: [
   raspberry pi,
@@ -195,7 +195,7 @@ sudo rm /etc/apt/keyrings/docker.asc
 
 ---
 
-_`Last updated: 2026-10-01`_{: .right}
+_`Last updated: 2026-10-03`_{: .right}
 
 [install-debian]: https://docs.docker.com/engine/install/debian
 [post-installation-steps]: https://docs.docker.com/engine/install/linux-postinstall/
