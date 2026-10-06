@@ -1,5 +1,5 @@
 ---
-title: Linux Docker Caddy 설치
+title: Linux [Docker, Portainer] Caddy 설치
 description: >-
   Linux(Debian) 환경에서 Docker와 Portainer를 활용해 Caddy 웹 서버를 설치하고, Caddyfile 전역 설정 및 역방향 프록시/파일 서버 구축 방법을 안내합니다.
 date: 2026-10-02 19:30:00 +0900
@@ -127,6 +127,6 @@ services:
 
 ---
 
-_`Last updated: 2026-10-02`_{: .right}
+_`Last updated: 2026-10-03`_{: .right}
 
 [docker-image-caddy]: https://hub.docker.com/_/caddy

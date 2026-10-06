@@ -1,5 +1,5 @@
 ---
-title: Linux Docker Portainer 설치
+title: Linux [Docker] Portainer 설치
 description: >-
   Linux(Debian) 환경에서 Docker Compose를 활용해 Portainer(Community Edition)를 설치하고 웹 UI 접속 및 초기 로그인 방법을 안내합니다.
 date: 2026-10-02 18:30:00 +0900
@@ -140,6 +140,6 @@ Start with --no-setup-token to disable.
 
 ---
 
-_`Last updated: 2026-10-02`_{: .right}
+_`Last updated: 2026-10-03`_{: .right}
 
 [install-portainer-ce-with-docker-on-linux]: https://docs.portainer.io/start/install-ce/server/docker/linux
