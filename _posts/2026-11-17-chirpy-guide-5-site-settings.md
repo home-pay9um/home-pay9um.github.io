@@ -27,7 +27,7 @@ tags: [
 | 프로필 이미지 | 미디어 저장소의 `profile.jpg` |
 | 파비콘 | `assets/img/favicons/` |
 | 사이드바의 탭 | `_tabs/` |
-| About 페이지의 내용 | `_tabs/about.md` |
+| 정보(About) 페이지의 내용 | `_tabs/about.md` |
 | 사이드바 아래의 연락처 아이콘 | `_data/contact.yml` |
 | 글 아래의 공유 버튼 | `_data/share.yml` |
 | 댓글 | `_config.yml`의 `comments` |
@@ -104,8 +104,8 @@ tags: [
 - [x] `github.username`, `social.name`, `social.email` 입력
 - [x] 미디어 저장소 연결 (`cdn`, `avatar`)
 - [x] 파비콘 교체
-- [ ] `lang`을 `ko-KR`로 변경 (화면 문구를 한국어로 표시)
-- [ ] `social.links`를 실제 프로필 주소로 교체
+- [x] `lang`을 `ko-KR`로 변경 (화면 문구를 한국어로 표시)
+- [x] `social.links`를 실제 프로필 주소로 교체
 - [ ] `_tabs/about.md`에 소개 글 작성
 - [ ] `_data/authors.yml`의 예제 작성자 정리
 - [ ] 댓글 시스템 연결
@@ -125,7 +125,7 @@ tags: [
 | `archives.md` | 3 | 연도별 글 목록 (자동 생성) |
 | `about.md` | 4 | 소개 페이지 (직접 작성) |
 
-### 4.1 About 페이지 작성
+### 4.1 정보(About) 페이지 작성
 
 `_tabs/about.md`{: .filepath}의 Front Matter 아래에 마크다운으로 내용을 적는다. 글과 같은 문법을 쓸 수 있다.
 
